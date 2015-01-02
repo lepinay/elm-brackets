@@ -1,9 +1,9 @@
 {
     "name": "foobarcode.elm",
     "title": "Elm support for Brackets",
-    "description": "Add syntax highlight for Elm files",
+    "description": "Syntax highlight and current file build with console output.",
     "homepage": "https://github.com/lepinay/elm-brackets",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "author": "FooBarCode (http://foobarcode.me)",
     "license": "MIT",
     "engines": {
