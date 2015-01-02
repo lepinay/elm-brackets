@@ -33,8 +33,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 define(function (require, exports) {
     "use strict";
+    
+    var cm = brackets.getModule("thirdparty/CodeMirror2/lib/codemirror");
 
-    CodeMirror.defineMode("elm", function() {
+    cm.defineMode("elm", function() {
 
       function switchState(source, setState, f) {
         setState(f);
