@@ -16,7 +16,7 @@ define(function (require, exports, module) {
     
     ExtensionUtils.loadStyleSheet(module, "styles/style.css");
     
-    var InfoPanel 		= require("modules/Info-Panel").InfoPanel;
+    var InfoPanel 		= require("modules/info-panel").InfoPanel;
     var panel 			= new InfoPanel();
     panel.init();
     panel.show();
